@@ -1,0 +1,68 @@
+.products-list{
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+
+}
+
+.products-list article{
+    background: #FFF;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.products-list article p {
+    font-size: 16px;
+    color: #999;
+    margin-top: 5px;
+    line-height: 24px;
+}
+
+.products-list article a{
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid #da552f;
+    background: none;
+    margin-top: 10px;
+    color: #da552f;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+}
+
+.products-list article a:hover{
+    background: #da552f;
+    color: #FFF;
+}
+
+.products-list .Actions{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.products-list .Actions button{
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    background: #da552f;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.products-list .Actions button:hover{
+    opacity: 0.7;
+}
+
+.products-list .Actions button[disabled] {
+    opacity: 0.5;
+    cursor: default;
+}
